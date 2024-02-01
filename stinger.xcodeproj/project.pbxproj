@@ -18,6 +18,14 @@
 		E8FB8CA12B6A569B008F46EE /* stingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CA02B6A569B008F46EE /* stingerUITestsLaunchTests.swift */; };
 		E8FB8CB12B6B7295008F46EE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CAF2B6B7295008F46EE /* StartViewController.swift */; };
 		E8FB8CB22B6B7295008F46EE /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CB02B6B7295008F46EE /* StartViewController.xib */; };
+		E8FB8CBB2B6B844E008F46EE /* ControllerLifeCycleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CBA2B6B844E008F46EE /* ControllerLifeCycleProtocol.swift */; };
+		E8FB8CBF2B6B8726008F46EE /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CBE2B6B8726008F46EE /* BaseNavigationController.swift */; };
+		E8FB8CC22B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CC12B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift */; };
+		E8FB8CC42B6B8BA7008F46EE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CC32B6B8BA7008F46EE /* BaseViewController.swift */; };
+		E8FB8CC62B6B8E86008F46EE /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CC52B6B8E86008F46EE /* UIApplication+Extension.swift */; };
+		E8FB8CC82B6B8FBF008F46EE /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CC72B6B8FBE008F46EE /* UIViewController+Extension.swift */; };
+		E8FB8CCB2B6B9BD2008F46EE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CC92B6B9BD2008F46EE /* SecondViewController.swift */; };
+		E8FB8CCC2B6B9BD2008F46EE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CCA2B6B9BD2008F46EE /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		E8FB8CA02B6A569B008F46EE /* stingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E8FB8CAF2B6B7295008F46EE /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		E8FB8CB02B6B7295008F46EE /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		E8FB8CBA2B6B844E008F46EE /* ControllerLifeCycleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerLifeCycleProtocol.swift; sourceTree = "<group>"; };
+		E8FB8CBE2B6B8726008F46EE /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		E8FB8CC12B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBarAppearance+Extension.swift"; sourceTree = "<group>"; };
+		E8FB8CC32B6B8BA7008F46EE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E8FB8CC52B6B8E86008F46EE /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		E8FB8CC72B6B8FBE008F46EE /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E8FB8CC92B6B9BD2008F46EE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E8FB8CCA2B6B9BD2008F46EE /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,18 +151,58 @@
 		E8FB8CAD2B6B725E008F46EE /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				E8FB8CAE2B6B7271008F46EE /* ViewControllers */,
+				E8FB8CB32B6B820B008F46EE /* Common */,
+				E8FB8CAE2B6B7271008F46EE /* ViewController */,
 			);
 			path = Component;
 			sourceTree = "<group>";
 		};
-		E8FB8CAE2B6B7271008F46EE /* ViewControllers */ = {
+		E8FB8CAE2B6B7271008F46EE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				E8FB8CAF2B6B7295008F46EE /* StartViewController.swift */,
 				E8FB8CB02B6B7295008F46EE /* StartViewController.xib */,
+				E8FB8CC92B6B9BD2008F46EE /* SecondViewController.swift */,
+				E8FB8CCA2B6B9BD2008F46EE /* SecondViewController.xib */,
 			);
-			path = ViewControllers;
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E8FB8CB32B6B820B008F46EE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CC02B6B8A07008F46EE /* Extension */,
+				E8FB8CB52B6B82D6008F46EE /* Protocol */,
+				E8FB8CB42B6B8232008F46EE /* ViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E8FB8CB42B6B8232008F46EE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CBE2B6B8726008F46EE /* BaseNavigationController.swift */,
+				E8FB8CC32B6B8BA7008F46EE /* BaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E8FB8CB52B6B82D6008F46EE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CBA2B6B844E008F46EE /* ControllerLifeCycleProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E8FB8CC02B6B8A07008F46EE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CC12B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift */,
+				E8FB8CC52B6B8E86008F46EE /* UIApplication+Extension.swift */,
+				E8FB8CC72B6B8FBE008F46EE /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +313,7 @@
 				E8FB8CB22B6B7295008F46EE /* StartViewController.xib in Resources */,
 				E8FB8C872B6A569B008F46EE /* Assets.xcassets in Resources */,
 				E8FB8C852B6A5699008F46EE /* Main.storyboard in Resources */,
+				E8FB8CCC2B6B9BD2008F46EE /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +338,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB8CCB2B6B9BD2008F46EE /* SecondViewController.swift in Sources */,
 				E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */,
+				E8FB8CC22B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift in Sources */,
 				E8FB8CB12B6B7295008F46EE /* StartViewController.swift in Sources */,
+				E8FB8CBF2B6B8726008F46EE /* BaseNavigationController.swift in Sources */,
+				E8FB8CC62B6B8E86008F46EE /* UIApplication+Extension.swift in Sources */,
 				E8FB8C7E2B6A5699008F46EE /* AppDelegate.swift in Sources */,
+				E8FB8CC42B6B8BA7008F46EE /* BaseViewController.swift in Sources */,
 				E8FB8C802B6A5699008F46EE /* SceneDelegate.swift in Sources */,
+				E8FB8CC82B6B8FBF008F46EE /* UIViewController+Extension.swift in Sources */,
+				E8FB8CBB2B6B844E008F46EE /* ControllerLifeCycleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

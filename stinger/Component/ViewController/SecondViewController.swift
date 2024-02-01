@@ -1,5 +1,5 @@
 //
-//  StartViewController.swift
+//  SecondViewController.swift
 //  stinger
 //
 //  Created by 안춘모 on 2/1/24.
@@ -7,15 +7,12 @@
 
 import UIKit
 
-class StartViewController: UIViewController {
+class SecondViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.backgroundColor = .white
-        
-        print("hello")
 
+        self.title = "2"
         // Do any additional setup after loading the view.
     }
 
