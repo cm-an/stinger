@@ -31,6 +31,9 @@
 		E8FB8CD32B6CBA67008F46EE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CD22B6CBA67008F46EE /* UIView+Extension.swift */; };
 		E8FB8CD62B6CBC1F008F46EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CD42B6CBC1F008F46EE /* TableViewController.swift */; };
 		E8FB8CD72B6CBC1F008F46EE /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CD52B6CBC1F008F46EE /* TableViewController.xib */; };
+		E8FB8CDB2B6CBE9C008F46EE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CD92B6CBE9C008F46EE /* TableViewCell.swift */; };
+		E8FB8CDC2B6CBE9C008F46EE /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CDA2B6CBE9C008F46EE /* TableViewCell.xib */; };
+		E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,9 @@
 		E8FB8CD22B6CBA67008F46EE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		E8FB8CD42B6CBC1F008F46EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E8FB8CD52B6CBC1F008F46EE /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		E8FB8CD92B6CBE9C008F46EE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E8FB8CDA2B6CBE9C008F46EE /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +168,7 @@
 		E8FB8CAD2B6B725E008F46EE /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				E8FB8CD82B6CBE87008F46EE /* View */,
 				E8FB8CAE2B6B7271008F46EE /* ViewController */,
 			);
 			path = Component;
@@ -215,8 +222,18 @@
 				E8FB8CC52B6B8E86008F46EE /* UIApplication+Extension.swift */,
 				E8FB8CC72B6B8FBE008F46EE /* UIViewController+Extension.swift */,
 				E8FB8CD22B6CBA67008F46EE /* UIView+Extension.swift */,
+				E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E8FB8CD82B6CBE87008F46EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CD92B6CBE9C008F46EE /* TableViewCell.swift */,
+				E8FB8CDA2B6CBE9C008F46EE /* TableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +348,7 @@
 			files = (
 				E8FB8C8A2B6A569B008F46EE /* LaunchScreen.storyboard in Resources */,
 				E8FB8CB22B6B7295008F46EE /* StartViewController.xib in Resources */,
+				E8FB8CDC2B6CBE9C008F46EE /* TableViewCell.xib in Resources */,
 				E8FB8C872B6A569B008F46EE /* Assets.xcassets in Resources */,
 				E8FB8CD72B6CBC1F008F46EE /* TableViewController.xib in Resources */,
 				E8FB8C852B6A5699008F46EE /* Main.storyboard in Resources */,
@@ -359,8 +377,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB8CDB2B6CBE9C008F46EE /* TableViewCell.swift in Sources */,
 				E8FB8CCB2B6B9BD2008F46EE /* SecondViewController.swift in Sources */,
 				E8FB8CD62B6CBC1F008F46EE /* TableViewController.swift in Sources */,
+				E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */,
 				E8FB8CD32B6CBA67008F46EE /* UIView+Extension.swift in Sources */,
 				E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */,
 				E8FB8CC22B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift in Sources */,

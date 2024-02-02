@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="containerView" destination="i1c-yP-dwy" id="FfQ-0t-aAJ"/>
                 <outlet property="nextButton" destination="oWS-Nm-U7i" id="nOG-FA-eSm"/>
+                <outlet property="nextnextButton" destination="waE-0M-OTh" id="UbU-0Y-5C1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,10 +30,17 @@
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" title="다음"/>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waE-0M-OTh">
+                            <rect key="frame" x="162" y="417" width="69" height="35"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="다다음"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
+                        <constraint firstItem="waE-0M-OTh" firstAttribute="top" secondItem="oWS-Nm-U7i" secondAttribute="bottom" constant="20" id="8Ny-fC-yMX"/>
                         <constraint firstItem="oWS-Nm-U7i" firstAttribute="centerX" secondItem="i1c-yP-dwy" secondAttribute="centerX" id="8m0-AD-W2j"/>
+                        <constraint firstItem="waE-0M-OTh" firstAttribute="centerX" secondItem="i1c-yP-dwy" secondAttribute="centerX" id="idO-jd-tjz"/>
                         <constraint firstItem="oWS-Nm-U7i" firstAttribute="centerY" secondItem="i1c-yP-dwy" secondAttribute="centerY" id="w8A-VX-1rw"/>
                     </constraints>
                 </view>

@@ -8,8 +8,15 @@
 import UIKit
 
 class StartViewController: BaseViewController {
+    override var navigationBarHeight: BaseNavigationController.NavigationBarHeight {
+        get {
+            return .sixty
+        }
+    }
+    
     @IBOutlet private weak var containerView: UIView!
     @IBOutlet private weak var nextButton: UIButton!
+    @IBOutlet private weak var nextnextButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,11 +25,17 @@ class StartViewController: BaseViewController {
         self.containerView.backgroundColor = .white
         
         self.nextButton.addTarget(self, action: #selector(self.touchUpInsideNextButton(_:)), for: .touchUpInside)
+        self.nextnextButton.addTarget(self, action: #selector(self.touchUpInsideNextNextButton(_:)), for: .touchUpInside)
 
         // Do any additional setup after loading the view.
     }
     @objc func touchUpInsideNextButton(_ sender: Any) {
         let secondViewController = SecondViewController()
-        self.baseNavigationController?.pushViewController(secondViewController, animated: true)
+        self.navigationController?.pushViewController(secondViewController, animated: true)
+    }
+    
+    @objc func touchUpInsideNextNextButton(_ sender: Any) {
+        let tableViewController = TableViewController()
+        self.navigationController?.pushViewController(tableViewController, animated: true)
     }
 }
