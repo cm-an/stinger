@@ -34,6 +34,7 @@
 		E8FB8CDB2B6CBE9C008F46EE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CD92B6CBE9C008F46EE /* TableViewCell.swift */; };
 		E8FB8CDC2B6CBE9C008F46EE /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CDA2B6CBE9C008F46EE /* TableViewCell.xib */; };
 		E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */; };
+		E8FB8CE12B6CCEEF008F46EE /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = E8FB8CE02B6CCEEF008F46EE /* DGCharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB8CE12B6CCEEF008F46EE /* DGCharts in Frameworks */,
 				E8FB8CD12B6CBA3A008F46EE /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +256,7 @@
 			name = stinger;
 			packageProductDependencies = (
 				E8FB8CD02B6CBA3A008F46EE /* MBProgressHUD */,
+				E8FB8CE02B6CCEEF008F46EE /* DGCharts */,
 			);
 			productName = stinger;
 			productReference = E8FB8C7A2B6A5699008F46EE /* stinger.app */;
@@ -329,6 +332,7 @@
 			mainGroup = E8FB8C712B6A5699008F46EE;
 			packageReferences = (
 				E8FB8CCF2B6CBA3A008F46EE /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				E8FB8CDF2B6CCC15008F46EE /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = E8FB8C7B2B6A5699008F46EE /* Products */;
 			projectDirPath = "";
@@ -753,6 +757,14 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		E8FB8CDF2B6CCC15008F46EE /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -760,6 +772,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E8FB8CCF2B6CBA3A008F46EE /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
 			productName = MBProgressHUD;
+		};
+		E8FB8CE02B6CCEEF008F46EE /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8FB8CDF2B6CCC15008F46EE /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
