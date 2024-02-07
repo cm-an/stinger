@@ -35,6 +35,8 @@
 		E8FB8CDC2B6CBE9C008F46EE /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CDA2B6CBE9C008F46EE /* TableViewCell.xib */; };
 		E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */; };
 		E8FB8CE12B6CCEEF008F46EE /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = E8FB8CE02B6CCEEF008F46EE /* DGCharts */; };
+		E8FB8CE42B7087C2008F46EE /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */; };
+		E8FB8CE52B7087C2008F46EE /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		E8FB8CD92B6CBE9C008F46EE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E8FB8CDA2B6CBE9C008F46EE /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,8 @@
 				E8FB8CCA2B6B9BD2008F46EE /* SecondViewController.xib */,
 				E8FB8CD42B6CBC1F008F46EE /* TableViewController.swift */,
 				E8FB8CD52B6CBC1F008F46EE /* TableViewController.xib */,
+				E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */,
+				E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -357,6 +363,7 @@
 				E8FB8CD72B6CBC1F008F46EE /* TableViewController.xib in Resources */,
 				E8FB8C852B6A5699008F46EE /* Main.storyboard in Resources */,
 				E8FB8CCC2B6B9BD2008F46EE /* SecondViewController.xib in Resources */,
+				E8FB8CE52B7087C2008F46EE /* ScrollViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +397,7 @@
 				E8FB8CC22B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift in Sources */,
 				E8FB8CB12B6B7295008F46EE /* StartViewController.swift in Sources */,
 				E8FB8CBF2B6B8726008F46EE /* BaseNavigationController.swift in Sources */,
+				E8FB8CE42B7087C2008F46EE /* ScrollViewController.swift in Sources */,
 				E8FB8CC62B6B8E86008F46EE /* UIApplication+Extension.swift in Sources */,
 				E8FB8CCE2B6C9A86008F46EE /* BaseTableViewController.swift in Sources */,
 				E8FB8C7E2B6A5699008F46EE /* AppDelegate.swift in Sources */,
