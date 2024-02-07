@@ -37,6 +37,7 @@
 		E8FB8CE12B6CCEEF008F46EE /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = E8FB8CE02B6CCEEF008F46EE /* DGCharts */; };
 		E8FB8CE42B7087C2008F46EE /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */; };
 		E8FB8CE52B7087C2008F46EE /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */; };
+		E8FB8CEF2B7350F3008F46EE /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CEE2B7350F3008F46EE /* NSAttributedString+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
 		E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
+		E8FB8CEE2B7350F3008F46EE /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 				E8FB8CC72B6B8FBE008F46EE /* UIViewController+Extension.swift */,
 				E8FB8CD22B6CBA67008F46EE /* UIView+Extension.swift */,
 				E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */,
+				E8FB8CEE2B7350F3008F46EE /* NSAttributedString+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				E8FB8CC22B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift in Sources */,
 				E8FB8CB12B6B7295008F46EE /* StartViewController.swift in Sources */,
 				E8FB8CBF2B6B8726008F46EE /* BaseNavigationController.swift in Sources */,
+				E8FB8CEF2B7350F3008F46EE /* NSAttributedString+Extension.swift in Sources */,
 				E8FB8CE42B7087C2008F46EE /* ScrollViewController.swift in Sources */,
 				E8FB8CC62B6B8E86008F46EE /* UIApplication+Extension.swift in Sources */,
 				E8FB8CCE2B6C9A86008F46EE /* BaseTableViewController.swift in Sources */,
