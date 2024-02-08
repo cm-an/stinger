@@ -35,28 +35,32 @@ class SecondViewController: BaseViewController {
         }
         
         let firstBarDataSet = BarChartDataSet(entries: firstDataEntries)
-        firstBarDataSet.colors = [.red]
+        firstBarDataSet.colors = [.blue_69c7f0()]
         firstBarDataSet.highlightEnabled = false
         
         let secondBarDataSet = BarChartDataSet(entries: secondDataEntries)
-        secondBarDataSet.colors = [.orange]
+        secondBarDataSet.colors = [.purple_fb61ff()]
         secondBarDataSet.highlightEnabled = false
         
         let thirdBarDataSet = BarChartDataSet(entries: thirdDataEntries)
-        thirdBarDataSet.colors = [.yellow]
+        thirdBarDataSet.colors = [.yellow_ffe800()]
         thirdBarDataSet.highlightEnabled = false
         
         let barChartData = BarChartData(dataSets: [firstBarDataSet, secondBarDataSet, thirdBarDataSet])
         barChartData.barWidth = 0.3
         barChartData.groupBars(fromX: -0.5, groupSpace: 0.3, barSpace: 0.0)
         
-        self.barChartView.doubleTapToZoomEnabled = false
+//        self.barChartView.doubleTapToZoomEnabled = false
         self.barChartView.xAxis.labelPosition = .bottom
         self.barChartView.xAxis.valueFormatter = IndexAxisValueFormatter(values: ["45세~55세", "45세~55세", "45세~55세", "45세~55세", "45세~55세", "45세~55세"])
         self.barChartView.xAxis.gridLineWidth = 0.0
         self.barChartView.rightAxis.enabled = false
         self.barChartView.leftAxis.enabled = false
+//        self.barChartView.backgroundColor = .blue_153982()
+        self.barChartView.setScaleEnabled(true)
+        self.barChartView.dragEnabled = true
         self.barChartView.animate(xAxisDuration: 2.0, yAxisDuration: 2.0)
+        
         self.barChartView.data = barChartData
         
 //        let ll = ChartLimitLine(limit: 50.0)
