@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartViewController" customModule="stinger" customModuleProvider="target">
             <connections>
                 <outlet property="containerView" destination="i1c-yP-dwy" id="FfQ-0t-aAJ"/>
+                <outlet property="graphButton" destination="tqj-nQ-UNm" id="0KA-kk-XKF"/>
                 <outlet property="nextButton" destination="oWS-Nm-U7i" id="nOG-FA-eSm"/>
                 <outlet property="nextnextButton" destination="waE-0M-OTh" id="UbU-0Y-5C1"/>
                 <outlet property="nextnextnextButton" destination="Nna-gE-4je" id="szX-w1-WR3"/>
@@ -41,11 +42,18 @@
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" title="next"/>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqj-nQ-UNm">
+                            <rect key="frame" x="162" y="472" width="69" height="35"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="graph"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstItem="waE-0M-OTh" firstAttribute="top" secondItem="oWS-Nm-U7i" secondAttribute="bottom" constant="20" id="8Ny-fC-yMX"/>
                         <constraint firstItem="oWS-Nm-U7i" firstAttribute="centerX" secondItem="i1c-yP-dwy" secondAttribute="centerX" id="8m0-AD-W2j"/>
+                        <constraint firstItem="tqj-nQ-UNm" firstAttribute="top" secondItem="Nna-gE-4je" secondAttribute="bottom" constant="20" id="BBw-OQ-xlD"/>
+                        <constraint firstItem="tqj-nQ-UNm" firstAttribute="centerX" secondItem="Nna-gE-4je" secondAttribute="centerX" id="CQE-iD-ArS"/>
                         <constraint firstItem="waE-0M-OTh" firstAttribute="centerY" secondItem="i1c-yP-dwy" secondAttribute="centerY" id="J2K-M1-E74"/>
                         <constraint firstItem="Nna-gE-4je" firstAttribute="top" secondItem="waE-0M-OTh" secondAttribute="bottom" constant="20" id="hPr-Qm-LHK"/>
                         <constraint firstItem="waE-0M-OTh" firstAttribute="centerX" secondItem="i1c-yP-dwy" secondAttribute="centerX" id="idO-jd-tjz"/>

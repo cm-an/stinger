@@ -38,6 +38,13 @@
 		E8FB8CE42B7087C2008F46EE /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */; };
 		E8FB8CE52B7087C2008F46EE /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */; };
 		E8FB8CEF2B7350F3008F46EE /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CEE2B7350F3008F46EE /* NSAttributedString+Extension.swift */; };
+		E8FB8CF12B736263008F46EE /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CF02B736263008F46EE /* BaseCollectionViewController.swift */; };
+		E8FB8CF32B736750008F46EE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CF22B736750008F46EE /* UIColor+Extension.swift */; };
+		E8FB8CF72B737432008F46EE /* InnerCollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CF62B737432008F46EE /* InnerCollectionViewTableViewCell.swift */; };
+		E8FB8CFA2B746739008F46EE /* GraphContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CF82B746739008F46EE /* GraphContainerViewController.swift */; };
+		E8FB8CFB2B746739008F46EE /* GraphContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CF92B746739008F46EE /* GraphContainerViewController.xib */; };
+		E8FB8CFE2B74680A008F46EE /* GraphTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8CFC2B74680A008F46EE /* GraphTableViewCell.swift */; };
+		E8FB8CFF2B74680A008F46EE /* GraphTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB8CFD2B74680A008F46EE /* GraphTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +98,13 @@
 		E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
 		E8FB8CEE2B7350F3008F46EE /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		E8FB8CF02B736263008F46EE /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		E8FB8CF22B736750008F46EE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E8FB8CF62B737432008F46EE /* InnerCollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		E8FB8CF82B746739008F46EE /* GraphContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphContainerViewController.swift; sourceTree = "<group>"; };
+		E8FB8CF92B746739008F46EE /* GraphContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphContainerViewController.xib; sourceTree = "<group>"; };
+		E8FB8CFC2B74680A008F46EE /* GraphTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTableViewCell.swift; sourceTree = "<group>"; };
+		E8FB8CFD2B74680A008F46EE /* GraphTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +207,8 @@
 				E8FB8CD52B6CBC1F008F46EE /* TableViewController.xib */,
 				E8FB8CE22B7087C2008F46EE /* ScrollViewController.swift */,
 				E8FB8CE32B7087C2008F46EE /* ScrollViewController.xib */,
+				E8FB8CF82B746739008F46EE /* GraphContainerViewController.swift */,
+				E8FB8CF92B746739008F46EE /* GraphContainerViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -200,6 +216,7 @@
 		E8FB8CB32B6B820B008F46EE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E8FB8CF42B737401008F46EE /* View */,
 				E8FB8CC02B6B8A07008F46EE /* Extension */,
 				E8FB8CB52B6B82D6008F46EE /* Protocol */,
 				E8FB8CB42B6B8232008F46EE /* ViewController */,
@@ -213,6 +230,7 @@
 				E8FB8CBE2B6B8726008F46EE /* BaseNavigationController.swift */,
 				E8FB8CC32B6B8BA7008F46EE /* BaseViewController.swift */,
 				E8FB8CCD2B6C9A86008F46EE /* BaseTableViewController.swift */,
+				E8FB8CF02B736263008F46EE /* BaseCollectionViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -234,6 +252,7 @@
 				E8FB8CD22B6CBA67008F46EE /* UIView+Extension.swift */,
 				E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */,
 				E8FB8CEE2B7350F3008F46EE /* NSAttributedString+Extension.swift */,
+				E8FB8CF22B736750008F46EE /* UIColor+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -243,8 +262,26 @@
 			children = (
 				E8FB8CD92B6CBE9C008F46EE /* TableViewCell.swift */,
 				E8FB8CDA2B6CBE9C008F46EE /* TableViewCell.xib */,
+				E8FB8CFC2B74680A008F46EE /* GraphTableViewCell.swift */,
+				E8FB8CFD2B74680A008F46EE /* GraphTableViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E8FB8CF42B737401008F46EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CF52B737412008F46EE /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8FB8CF52B737412008F46EE /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CF62B737432008F46EE /* InnerCollectionViewTableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,11 +396,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB8CFB2B746739008F46EE /* GraphContainerViewController.xib in Resources */,
 				E8FB8C8A2B6A569B008F46EE /* LaunchScreen.storyboard in Resources */,
 				E8FB8CB22B6B7295008F46EE /* StartViewController.xib in Resources */,
 				E8FB8CDC2B6CBE9C008F46EE /* TableViewCell.xib in Resources */,
 				E8FB8C872B6A569B008F46EE /* Assets.xcassets in Resources */,
 				E8FB8CD72B6CBC1F008F46EE /* TableViewController.xib in Resources */,
+				E8FB8CFF2B74680A008F46EE /* GraphTableViewCell.xib in Resources */,
 				E8FB8C852B6A5699008F46EE /* Main.storyboard in Resources */,
 				E8FB8CCC2B6B9BD2008F46EE /* SecondViewController.xib in Resources */,
 				E8FB8CE52B7087C2008F46EE /* ScrollViewController.xib in Resources */,
@@ -394,6 +433,8 @@
 				E8FB8CDB2B6CBE9C008F46EE /* TableViewCell.swift in Sources */,
 				E8FB8CCB2B6B9BD2008F46EE /* SecondViewController.swift in Sources */,
 				E8FB8CD62B6CBC1F008F46EE /* TableViewController.swift in Sources */,
+				E8FB8CFA2B746739008F46EE /* GraphContainerViewController.swift in Sources */,
+				E8FB8CF72B737432008F46EE /* InnerCollectionViewTableViewCell.swift in Sources */,
 				E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */,
 				E8FB8CD32B6CBA67008F46EE /* UIView+Extension.swift in Sources */,
 				E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */,
@@ -402,13 +443,16 @@
 				E8FB8CBF2B6B8726008F46EE /* BaseNavigationController.swift in Sources */,
 				E8FB8CEF2B7350F3008F46EE /* NSAttributedString+Extension.swift in Sources */,
 				E8FB8CE42B7087C2008F46EE /* ScrollViewController.swift in Sources */,
+				E8FB8CF12B736263008F46EE /* BaseCollectionViewController.swift in Sources */,
 				E8FB8CC62B6B8E86008F46EE /* UIApplication+Extension.swift in Sources */,
 				E8FB8CCE2B6C9A86008F46EE /* BaseTableViewController.swift in Sources */,
 				E8FB8C7E2B6A5699008F46EE /* AppDelegate.swift in Sources */,
+				E8FB8CFE2B74680A008F46EE /* GraphTableViewCell.swift in Sources */,
 				E8FB8CC42B6B8BA7008F46EE /* BaseViewController.swift in Sources */,
 				E8FB8C802B6A5699008F46EE /* SceneDelegate.swift in Sources */,
 				E8FB8CC82B6B8FBF008F46EE /* UIViewController+Extension.swift in Sources */,
 				E8FB8CBB2B6B844E008F46EE /* ControllerLifeCycleProtocol.swift in Sources */,
+				E8FB8CF32B736750008F46EE /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

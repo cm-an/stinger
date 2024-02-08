@@ -18,6 +18,7 @@ class StartViewController: BaseViewController {
     @IBOutlet private weak var nextButton: UIButton!
     @IBOutlet private weak var nextnextButton: UIButton!
     @IBOutlet private weak var nextnextnextButton: UIButton!
+    @IBOutlet private weak var graphButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,7 @@ class StartViewController: BaseViewController {
         self.nextButton.addTarget(self, action: #selector(self.touchUpInsideNextButton(_:)), for: .touchUpInside)
         self.nextnextButton.addTarget(self, action: #selector(self.touchUpInsideNextNextButton(_:)), for: .touchUpInside)
         self.nextnextnextButton.addTarget(self, action: #selector(self.touchUpInsideNextNextNextButton(_:)), for: .touchUpInside)
+        self.graphButton.addTarget(self, action: #selector(self.touchUpInsideGraphButton(_:)), for: .touchUpInside)
 
         // Do any additional setup after loading the view.
     }
@@ -44,5 +46,9 @@ class StartViewController: BaseViewController {
     @objc func touchUpInsideNextNextNextButton(_ sender: Any) {
         let scrollViewController = ScrollViewController()
         self.navigationController?.pushViewController(scrollViewController, animated: true)
+    }
+    
+    @objc func touchUpInsideGraphButton(_ sender: Any) {
+        
     }
 }
