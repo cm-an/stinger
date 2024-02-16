@@ -29,8 +29,6 @@ class BaseTableViewController: BaseViewController, UITableViewDataSource, UITabl
                 bottom: tableView.layoutMargins.bottom,
                 right: 0.0)
         }
-        
-        // for test
     }
     
     override func viewDidLayoutSubviews() {
