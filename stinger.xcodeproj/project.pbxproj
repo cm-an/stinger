@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8F137F32B832D00006088A1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E8F137F22B832D00006088A1 /* Alamofire */; };
+		E8F137F92B833048006088A1 /* IntOrString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137F82B833048006088A1 /* IntOrString.swift */; };
+		E8F137FD2B8337FE006088A1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137FC2B8337FE006088A1 /* Error.swift */; };
+		E8F137FF2B833930006088A1 /* AsyncRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137FE2B833930006088A1 /* AsyncRequest.swift */; };
 		E8FB8C7E2B6A5699008F46EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8C7D2B6A5699008F46EE /* AppDelegate.swift */; };
 		E8FB8C802B6A5699008F46EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8C7F2B6A5699008F46EE /* SceneDelegate.swift */; };
 		E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8C812B6A5699008F46EE /* ViewController.swift */; };
@@ -65,6 +69,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8F137F82B833048006088A1 /* IntOrString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntOrString.swift; sourceTree = "<group>"; };
+		E8F137FC2B8337FE006088A1 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		E8F137FE2B833930006088A1 /* AsyncRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncRequest.swift; sourceTree = "<group>"; };
 		E8FB8C7A2B6A5699008F46EE /* stinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FB8C7D2B6A5699008F46EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FB8C7F2B6A5699008F46EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F137F32B832D00006088A1 /* Alamofire in Frameworks */,
 				E8FB8CE12B6CCEEF008F46EE /* DGCharts in Frameworks */,
 				E8FB8CD12B6CBA3A008F46EE /* MBProgressHUD in Frameworks */,
 			);
@@ -134,6 +142,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8F137F42B832DC2006088A1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E8F137F72B83303A006088A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8F137F82B833048006088A1 /* IntOrString.swift */,
+				E8F137FC2B8337FE006088A1 /* Error.swift */,
+				E8F137FE2B833930006088A1 /* AsyncRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E8FB8C712B6A5699008F46EE = {
 			isa = PBXGroup;
 			children = (
@@ -216,9 +241,11 @@
 		E8FB8CB32B6B820B008F46EE /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E8FB8CF42B737401008F46EE /* View */,
+				E8F137F72B83303A006088A1 /* Model */,
 				E8FB8CC02B6B8A07008F46EE /* Extension */,
 				E8FB8CB52B6B82D6008F46EE /* Protocol */,
+				E8F137F42B832DC2006088A1 /* Manager */,
+				E8FB8CF42B737401008F46EE /* View */,
 				E8FB8CB42B6B8232008F46EE /* ViewController */,
 			);
 			path = Common;
@@ -303,6 +330,7 @@
 			packageProductDependencies = (
 				E8FB8CD02B6CBA3A008F46EE /* MBProgressHUD */,
 				E8FB8CE02B6CCEEF008F46EE /* DGCharts */,
+				E8F137F22B832D00006088A1 /* Alamofire */,
 			);
 			productName = stinger;
 			productReference = E8FB8C7A2B6A5699008F46EE /* stinger.app */;
@@ -379,6 +407,7 @@
 			packageReferences = (
 				E8FB8CCF2B6CBA3A008F46EE /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				E8FB8CDF2B6CCC15008F46EE /* XCRemoteSwiftPackageReference "Charts" */,
+				E8F137F12B832D00006088A1 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = E8FB8C7B2B6A5699008F46EE /* Products */;
 			projectDirPath = "";
@@ -430,11 +459,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F137F92B833048006088A1 /* IntOrString.swift in Sources */,
 				E8FB8CDB2B6CBE9C008F46EE /* TableViewCell.swift in Sources */,
 				E8FB8CCB2B6B9BD2008F46EE /* SecondViewController.swift in Sources */,
+				E8F137FF2B833930006088A1 /* AsyncRequest.swift in Sources */,
 				E8FB8CD62B6CBC1F008F46EE /* TableViewController.swift in Sources */,
 				E8FB8CFA2B746739008F46EE /* GraphContainerViewController.swift in Sources */,
 				E8FB8CF72B737432008F46EE /* InnerCollectionViewTableViewCell.swift in Sources */,
+				E8F137FD2B8337FE006088A1 /* Error.swift in Sources */,
 				E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */,
 				E8FB8CD32B6CBA67008F46EE /* UIView+Extension.swift in Sources */,
 				E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */,
@@ -805,6 +837,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E8F137F12B832D00006088A1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
 		E8FB8CCF2B6CBA3A008F46EE /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jdg/MBProgressHUD";
@@ -824,6 +864,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E8F137F22B832D00006088A1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8F137F12B832D00006088A1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		E8FB8CD02B6CBA3A008F46EE /* MBProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E8FB8CCF2B6CBA3A008F46EE /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
