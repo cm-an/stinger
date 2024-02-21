@@ -159,6 +159,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E8F1380A2B8593B2006088A1 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB8CD82B6CBE87008F46EE /* View */,
+				E8FB8CAE2B6B7271008F46EE /* ViewController */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
 		E8FB8C712B6A5699008F46EE = {
 			isa = PBXGroup;
 			children = (
@@ -215,8 +224,7 @@
 		E8FB8CAD2B6B725E008F46EE /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				E8FB8CD82B6CBE87008F46EE /* View */,
-				E8FB8CAE2B6B7271008F46EE /* ViewController */,
+				E8F1380A2B8593B2006088A1 /* Practice */,
 			);
 			path = Component;
 			sourceTree = "<group>";
