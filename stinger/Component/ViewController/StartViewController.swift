@@ -23,6 +23,8 @@ class StartViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.title = "@@@@"
+        
         self.view.backgroundColor = .white
         self.containerView.backgroundColor = .white
         
