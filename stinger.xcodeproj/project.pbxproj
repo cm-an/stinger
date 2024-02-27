@@ -11,6 +11,19 @@
 		E8F137F92B833048006088A1 /* IntOrString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137F82B833048006088A1 /* IntOrString.swift */; };
 		E8F137FD2B8337FE006088A1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137FC2B8337FE006088A1 /* Error.swift */; };
 		E8F137FF2B833930006088A1 /* AsyncRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137FE2B833930006088A1 /* AsyncRequest.swift */; };
+		E8F138102B859521006088A1 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1380E2B859521006088A1 /* HomeTableViewController.swift */; };
+		E8F138112B859521006088A1 /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F1380F2B859521006088A1 /* HomeTableViewController.xib */; };
+		E8F138142B85A7B8006088A1 /* TileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F138122B85A7B8006088A1 /* TileCell.swift */; };
+		E8F138152B85A7B8006088A1 /* TileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F138132B85A7B8006088A1 /* TileCell.xib */; };
+		E8F138182B85A881006088A1 /* TileElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F138162B85A881006088A1 /* TileElementCell.swift */; };
+		E8F138192B85A881006088A1 /* TileElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F138172B85A881006088A1 /* TileElementCell.xib */; };
+		E8F1381B2B85AA3F006088A1 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1381A2B85AA3F006088A1 /* UICollectionViewCell+Extension.swift */; };
+		E8F1381E2B85CD34006088A1 /* CountScrollLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1381D2B85CD34006088A1 /* CountScrollLabel.swift */; };
+		E8F138212B85D0F2006088A1 /* CountScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1381F2B85D0F2006088A1 /* CountScrollCell.swift */; };
+		E8F138222B85D0F2006088A1 /* CountScrollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F138202B85D0F2006088A1 /* CountScrollCell.xib */; };
+		E8F1382A2B86D752006088A1 /* RollingNumbers in Frameworks */ = {isa = PBXBuildFile; productRef = E8F138292B86D752006088A1 /* RollingNumbers */; };
+		E8F1382D2B86D7AA006088A1 /* RollingNumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F1382B2B86D7AA006088A1 /* RollingNumberCell.swift */; };
+		E8F1382E2B86D7AA006088A1 /* RollingNumberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F1382C2B86D7AA006088A1 /* RollingNumberCell.xib */; };
 		E8FB8C7E2B6A5699008F46EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8C7D2B6A5699008F46EE /* AppDelegate.swift */; };
 		E8FB8C802B6A5699008F46EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8C7F2B6A5699008F46EE /* SceneDelegate.swift */; };
 		E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB8C812B6A5699008F46EE /* ViewController.swift */; };
@@ -72,6 +85,18 @@
 		E8F137F82B833048006088A1 /* IntOrString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntOrString.swift; sourceTree = "<group>"; };
 		E8F137FC2B8337FE006088A1 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		E8F137FE2B833930006088A1 /* AsyncRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncRequest.swift; sourceTree = "<group>"; };
+		E8F1380E2B859521006088A1 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		E8F1380F2B859521006088A1 /* HomeTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
+		E8F138122B85A7B8006088A1 /* TileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCell.swift; sourceTree = "<group>"; };
+		E8F138132B85A7B8006088A1 /* TileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TileCell.xib; sourceTree = "<group>"; };
+		E8F138162B85A881006088A1 /* TileElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileElementCell.swift; sourceTree = "<group>"; };
+		E8F138172B85A881006088A1 /* TileElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TileElementCell.xib; sourceTree = "<group>"; };
+		E8F1381A2B85AA3F006088A1 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		E8F1381D2B85CD34006088A1 /* CountScrollLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountScrollLabel.swift; sourceTree = "<group>"; };
+		E8F1381F2B85D0F2006088A1 /* CountScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountScrollCell.swift; sourceTree = "<group>"; };
+		E8F138202B85D0F2006088A1 /* CountScrollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountScrollCell.xib; sourceTree = "<group>"; };
+		E8F1382B2B86D7AA006088A1 /* RollingNumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingNumberCell.swift; sourceTree = "<group>"; };
+		E8F1382C2B86D7AA006088A1 /* RollingNumberCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RollingNumberCell.xib; sourceTree = "<group>"; };
 		E8FB8C7A2B6A5699008F46EE /* stinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FB8C7D2B6A5699008F46EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FB8C7F2B6A5699008F46EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F137F32B832D00006088A1 /* Alamofire in Frameworks */,
+				E8F1382A2B86D752006088A1 /* RollingNumbers in Frameworks */,
 				E8FB8CE12B6CCEEF008F46EE /* DGCharts in Frameworks */,
 				E8FB8CD12B6CBA3A008F46EE /* MBProgressHUD in Frameworks */,
 			);
@@ -168,6 +194,54 @@
 			path = Practice;
 			sourceTree = "<group>";
 		};
+		E8F1380B2B85943B006088A1 /* Titleist */ = {
+			isa = PBXGroup;
+			children = (
+				E8F1380D2B8594AF006088A1 /* View */,
+				E8F1380C2B8594A8006088A1 /* ViewController */,
+			);
+			path = Titleist;
+			sourceTree = "<group>";
+		};
+		E8F1380C2B8594A8006088A1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E8F1380E2B859521006088A1 /* HomeTableViewController.swift */,
+				E8F1380F2B859521006088A1 /* HomeTableViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E8F1380D2B8594AF006088A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8F138122B85A7B8006088A1 /* TileCell.swift */,
+				E8F138132B85A7B8006088A1 /* TileCell.xib */,
+				E8F138162B85A881006088A1 /* TileElementCell.swift */,
+				E8F138172B85A881006088A1 /* TileElementCell.xib */,
+				E8F1381F2B85D0F2006088A1 /* CountScrollCell.swift */,
+				E8F138202B85D0F2006088A1 /* CountScrollCell.xib */,
+				E8F1382B2B86D7AA006088A1 /* RollingNumberCell.swift */,
+				E8F1382C2B86D7AA006088A1 /* RollingNumberCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8F1381C2B85CD1E006088A1 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				E8F1381D2B85CD34006088A1 /* CountScrollLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		E8F138302B86F955006088A1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		E8FB8C712B6A5699008F46EE = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +265,7 @@
 		E8FB8C7C2B6A5699008F46EE /* stinger */ = {
 			isa = PBXGroup;
 			children = (
+				E8F138302B86F955006088A1 /* Font */,
 				E8FB8CB32B6B820B008F46EE /* Common */,
 				E8FB8CAD2B6B725E008F46EE /* Component */,
 				E8FB8C7D2B6A5699008F46EE /* AppDelegate.swift */,
@@ -224,6 +299,7 @@
 		E8FB8CAD2B6B725E008F46EE /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				E8F1380B2B85943B006088A1 /* Titleist */,
 				E8F1380A2B8593B2006088A1 /* Practice */,
 			);
 			path = Component;
@@ -288,6 +364,7 @@
 				E8FB8CDD2B6CC187008F46EE /* UITableViewCell+Extension.swift */,
 				E8FB8CEE2B7350F3008F46EE /* NSAttributedString+Extension.swift */,
 				E8FB8CF22B736750008F46EE /* UIColor+Extension.swift */,
+				E8F1381A2B85AA3F006088A1 /* UICollectionViewCell+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -306,6 +383,7 @@
 		E8FB8CF42B737401008F46EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E8F1381C2B85CD1E006088A1 /* Label */,
 				E8FB8CF52B737412008F46EE /* TableViewCell */,
 			);
 			path = View;
@@ -339,6 +417,7 @@
 				E8FB8CD02B6CBA3A008F46EE /* MBProgressHUD */,
 				E8FB8CE02B6CCEEF008F46EE /* DGCharts */,
 				E8F137F22B832D00006088A1 /* Alamofire */,
+				E8F138292B86D752006088A1 /* RollingNumbers */,
 			);
 			productName = stinger;
 			productReference = E8FB8C7A2B6A5699008F46EE /* stinger.app */;
@@ -416,6 +495,7 @@
 				E8FB8CCF2B6CBA3A008F46EE /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				E8FB8CDF2B6CCC15008F46EE /* XCRemoteSwiftPackageReference "Charts" */,
 				E8F137F12B832D00006088A1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E8F138282B86D751006088A1 /* XCRemoteSwiftPackageReference "RollingNumbers" */,
 			);
 			productRefGroup = E8FB8C7B2B6A5699008F46EE /* Products */;
 			projectDirPath = "";
@@ -434,15 +514,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FB8CFB2B746739008F46EE /* GraphContainerViewController.xib in Resources */,
+				E8F138112B859521006088A1 /* HomeTableViewController.xib in Resources */,
 				E8FB8C8A2B6A569B008F46EE /* LaunchScreen.storyboard in Resources */,
 				E8FB8CB22B6B7295008F46EE /* StartViewController.xib in Resources */,
+				E8F1382E2B86D7AA006088A1 /* RollingNumberCell.xib in Resources */,
 				E8FB8CDC2B6CBE9C008F46EE /* TableViewCell.xib in Resources */,
 				E8FB8C872B6A569B008F46EE /* Assets.xcassets in Resources */,
 				E8FB8CD72B6CBC1F008F46EE /* TableViewController.xib in Resources */,
 				E8FB8CFF2B74680A008F46EE /* GraphTableViewCell.xib in Resources */,
+				E8F138222B85D0F2006088A1 /* CountScrollCell.xib in Resources */,
+				E8F138192B85A881006088A1 /* TileElementCell.xib in Resources */,
 				E8FB8C852B6A5699008F46EE /* Main.storyboard in Resources */,
 				E8FB8CCC2B6B9BD2008F46EE /* SecondViewController.xib in Resources */,
 				E8FB8CE52B7087C2008F46EE /* ScrollViewController.xib in Resources */,
+				E8F138152B85A7B8006088A1 /* TileCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,15 +558,20 @@
 				E8F137FF2B833930006088A1 /* AsyncRequest.swift in Sources */,
 				E8FB8CD62B6CBC1F008F46EE /* TableViewController.swift in Sources */,
 				E8FB8CFA2B746739008F46EE /* GraphContainerViewController.swift in Sources */,
+				E8F1382D2B86D7AA006088A1 /* RollingNumberCell.swift in Sources */,
 				E8FB8CF72B737432008F46EE /* InnerCollectionViewTableViewCell.swift in Sources */,
 				E8F137FD2B8337FE006088A1 /* Error.swift in Sources */,
+				E8F138212B85D0F2006088A1 /* CountScrollCell.swift in Sources */,
+				E8F1381B2B85AA3F006088A1 /* UICollectionViewCell+Extension.swift in Sources */,
 				E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */,
 				E8FB8CD32B6CBA67008F46EE /* UIView+Extension.swift in Sources */,
 				E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */,
 				E8FB8CC22B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift in Sources */,
 				E8FB8CB12B6B7295008F46EE /* StartViewController.swift in Sources */,
+				E8F1381E2B85CD34006088A1 /* CountScrollLabel.swift in Sources */,
 				E8FB8CBF2B6B8726008F46EE /* BaseNavigationController.swift in Sources */,
 				E8FB8CEF2B7350F3008F46EE /* NSAttributedString+Extension.swift in Sources */,
+				E8F138142B85A7B8006088A1 /* TileCell.swift in Sources */,
 				E8FB8CE42B7087C2008F46EE /* ScrollViewController.swift in Sources */,
 				E8FB8CF12B736263008F46EE /* BaseCollectionViewController.swift in Sources */,
 				E8FB8CC62B6B8E86008F46EE /* UIApplication+Extension.swift in Sources */,
@@ -491,6 +581,8 @@
 				E8FB8CC42B6B8BA7008F46EE /* BaseViewController.swift in Sources */,
 				E8FB8C802B6A5699008F46EE /* SceneDelegate.swift in Sources */,
 				E8FB8CC82B6B8FBF008F46EE /* UIViewController+Extension.swift in Sources */,
+				E8F138182B85A881006088A1 /* TileElementCell.swift in Sources */,
+				E8F138102B859521006088A1 /* HomeTableViewController.swift in Sources */,
 				E8FB8CBB2B6B844E008F46EE /* ControllerLifeCycleProtocol.swift in Sources */,
 				E8FB8CF32B736750008F46EE /* UIColor+Extension.swift in Sources */,
 			);
@@ -853,6 +945,14 @@
 				minimumVersion = 5.8.1;
 			};
 		};
+		E8F138282B86D751006088A1 /* XCRemoteSwiftPackageReference "RollingNumbers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxkalik/RollingNumbers?ref=hackernoon.com";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
 		E8FB8CCF2B6CBA3A008F46EE /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jdg/MBProgressHUD";
@@ -876,6 +976,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E8F137F12B832D00006088A1 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		E8F138292B86D752006088A1 /* RollingNumbers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8F138282B86D751006088A1 /* XCRemoteSwiftPackageReference "RollingNumbers" */;
+			productName = RollingNumbers;
 		};
 		E8FB8CD02B6CBA3A008F46EE /* MBProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;

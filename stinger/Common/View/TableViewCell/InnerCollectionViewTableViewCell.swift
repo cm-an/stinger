@@ -33,6 +33,10 @@ class InnerCollectionViewTableViewCell: UITableViewCell, UICollectionViewDataSou
     }
     
     // MARK: - UICollectionViewDataSource
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 0
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 0
     }
@@ -40,5 +44,6 @@ class InnerCollectionViewTableViewCell: UITableViewCell, UICollectionViewDataSou
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         return UICollectionViewCell()
     }
-
+    
+    // MARK: - UICollectionViewDelegate
 }
