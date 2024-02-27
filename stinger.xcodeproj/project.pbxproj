@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8E9A1EA2B8D6E0A00C5860B /* PulsatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E9A1E92B8D6E0A00C5860B /* PulsatingButton.swift */; };
+		E8E9A1ED2B8D705C00C5860B /* PulsingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E9A1EB2B8D705C00C5860B /* PulsingCell.swift */; };
+		E8E9A1EE2B8D705C00C5860B /* PulsingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E9A1EC2B8D705C00C5860B /* PulsingCell.xib */; };
 		E8F137F32B832D00006088A1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E8F137F22B832D00006088A1 /* Alamofire */; };
 		E8F137F92B833048006088A1 /* IntOrString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137F82B833048006088A1 /* IntOrString.swift */; };
 		E8F137FD2B8337FE006088A1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F137FC2B8337FE006088A1 /* Error.swift */; };
@@ -82,6 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8E9A1E92B8D6E0A00C5860B /* PulsatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingButton.swift; sourceTree = "<group>"; };
+		E8E9A1EB2B8D705C00C5860B /* PulsingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingCell.swift; sourceTree = "<group>"; };
+		E8E9A1EC2B8D705C00C5860B /* PulsingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PulsingCell.xib; sourceTree = "<group>"; };
 		E8F137F82B833048006088A1 /* IntOrString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntOrString.swift; sourceTree = "<group>"; };
 		E8F137FC2B8337FE006088A1 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		E8F137FE2B833930006088A1 /* AsyncRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncRequest.swift; sourceTree = "<group>"; };
@@ -168,6 +174,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8E9A1E82B8D6DEC00C5860B /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E8E9A1E92B8D6E0A00C5860B /* PulsatingButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		E8F137F42B832DC2006088A1 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +237,8 @@
 				E8F138202B85D0F2006088A1 /* CountScrollCell.xib */,
 				E8F1382B2B86D7AA006088A1 /* RollingNumberCell.swift */,
 				E8F1382C2B86D7AA006088A1 /* RollingNumberCell.xib */,
+				E8E9A1EB2B8D705C00C5860B /* PulsingCell.swift */,
+				E8E9A1EC2B8D705C00C5860B /* PulsingCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -383,6 +399,7 @@
 		E8FB8CF42B737401008F46EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E8E9A1E82B8D6DEC00C5860B /* Button */,
 				E8F1381C2B85CD1E006088A1 /* Label */,
 				E8FB8CF52B737412008F46EE /* TableViewCell */,
 			);
@@ -515,6 +532,7 @@
 			files = (
 				E8FB8CFB2B746739008F46EE /* GraphContainerViewController.xib in Resources */,
 				E8F138112B859521006088A1 /* HomeTableViewController.xib in Resources */,
+				E8E9A1EE2B8D705C00C5860B /* PulsingCell.xib in Resources */,
 				E8FB8C8A2B6A569B008F46EE /* LaunchScreen.storyboard in Resources */,
 				E8FB8CB22B6B7295008F46EE /* StartViewController.xib in Resources */,
 				E8F1382E2B86D7AA006088A1 /* RollingNumberCell.xib in Resources */,
@@ -555,6 +573,7 @@
 				E8F137F92B833048006088A1 /* IntOrString.swift in Sources */,
 				E8FB8CDB2B6CBE9C008F46EE /* TableViewCell.swift in Sources */,
 				E8FB8CCB2B6B9BD2008F46EE /* SecondViewController.swift in Sources */,
+				E8E9A1EA2B8D6E0A00C5860B /* PulsatingButton.swift in Sources */,
 				E8F137FF2B833930006088A1 /* AsyncRequest.swift in Sources */,
 				E8FB8CD62B6CBC1F008F46EE /* TableViewController.swift in Sources */,
 				E8FB8CFA2B746739008F46EE /* GraphContainerViewController.swift in Sources */,
@@ -566,6 +585,7 @@
 				E8FB8CDE2B6CC187008F46EE /* UITableViewCell+Extension.swift in Sources */,
 				E8FB8CD32B6CBA67008F46EE /* UIView+Extension.swift in Sources */,
 				E8FB8C822B6A5699008F46EE /* ViewController.swift in Sources */,
+				E8E9A1ED2B8D705C00C5860B /* PulsingCell.swift in Sources */,
 				E8FB8CC22B6B8A3E008F46EE /* UINavigationBarAppearance+Extension.swift in Sources */,
 				E8FB8CB12B6B7295008F46EE /* StartViewController.swift in Sources */,
 				E8F1381E2B85CD34006088A1 /* CountScrollLabel.swift in Sources */,

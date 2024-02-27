@@ -10,7 +10,7 @@ import UIKit
 class HomeTableViewController: BaseTableViewController {
     
     private enum Section: Int, CaseIterable {
-        case collection, number, rollingNumber
+        case collection, number, rollingNumber, pulsing
     }
     
     override var navigationBarHeight: BaseNavigationController.NavigationBarHeight {
@@ -41,6 +41,9 @@ class HomeTableViewController: BaseTableViewController {
         self.tableView?.register(
             UINib(nibName: "RollingNumberCell", bundle: nil),
             forCellReuseIdentifier: RollingNumberCell.reuseIdentifier())
+        self.tableView?.register(
+            UINib(nibName: "PulsingCell", bundle: nil),
+            forCellReuseIdentifier: PulsingCell.reuseIdentifier())
     }
 
 
@@ -63,6 +66,8 @@ class HomeTableViewController: BaseTableViewController {
             return 1
         case Section.rollingNumber.rawValue:
             return 1
+        case Section.pulsing.rawValue:
+            return 1
         default:
             return 0
         }
@@ -83,6 +88,11 @@ class HomeTableViewController: BaseTableViewController {
             let rollingNumberCell = tableView.dequeueReusableCell(
                 withIdentifier: RollingNumberCell.reuseIdentifier()) as! RollingNumberCell
             cell = rollingNumberCell
+        case Section.pulsing.rawValue:
+            let pulsingCell = tableView.dequeueReusableCell(
+                withIdentifier: PulsingCell.reuseIdentifier()) as! PulsingCell
+            pulsingCell.pulsingButton.pulse()
+            cell = pulsingCell
         default:
             break
         }
@@ -98,6 +108,8 @@ class HomeTableViewController: BaseTableViewController {
             return 130.0
         case Section.rollingNumber.rawValue:
             return 100.0
+        case Section.pulsing.rawValue:
+            return 200.0
         default:
             return .zero
         }
